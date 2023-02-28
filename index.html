@@ -2,18 +2,12 @@
 <html lang="en">
 
 <head>
+	<link rel="stylesheet" href="style.css">
 	<!-- Requirement-1.A -->
 	<title>Welcome to my website</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-		body {
-			font-family: Arial, Helvetica, sans-serif;
-		}
-	</style>
 </head>
 
-<body>
+<body class="page1">
 	<!-- Requirement-1.B -->
 	<header>
 		<!-- Requirement-1.F -->
@@ -22,32 +16,19 @@
 
 	<!-- Start Header -->
 	<!-- Requirement-1.O -->
-	<table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#C1D9B7">
+	<table id="table1" width="100%" cellpadding="0" cellspacing="0">
 		<tr>
 			<td>
-				<table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+				<table id="#table2" width="85%" cellpadding="15" cellspacing="0">
 					<tr>
-						<td>
-							<font size="+2">Erica Tan</font>
-						</td>
 						<td width="30%"></td>
 
-						<!-- Requirement-1.D -->
-						<nav>
-							<!-- Requirement-1.J -->
-							<td><a href="./index.html">
-									<font size="+2">Home</font>
-								</a></td>
-							<td><a href="./about.html">
-									<font size="+2">About Me</font>
-								</a></td>
-							<td><a href="./hobbies.html">
-									<font size="+2">Hobbies</font>
-								</a></td>
-							<td><a href="./kdramas.html">
-									<font size="+2">KDramas</font>
-								</a></td>
-						</nav>
+						<div class="topnav">
+							<a href="./index.html">Home</a>
+							<a href="./about.html">About Me</a>
+							<a href="./hobbies.html">Hobbies</a>
+							<a href="./kdramas.html">Kdramas</a>
+						  </div> 
 					</tr>
 				</table>
 			</td>
@@ -55,12 +36,17 @@
 	</table>
 	<!-- End Header -->
 
+	<p id="welcome">Welcome to my website!</p>
+
+	<img class="nezuko" src="nezuko.gif">
+
+
 	<br />
 
 	<!-- Requirement-1.C -->
-	<footer>
+	<footer class="thanks">
 		<!-- Requirement-1.H -->
-		<p><span style="color:rgb(82, 15, 190)">Thanks for visiting!</span></p>
+		<h3>Thanks for visiting!</h3>
 	</footer>
 
 
